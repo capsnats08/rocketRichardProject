@@ -17,6 +17,6 @@ Instead of passing tuples everywhere, I'd like to make classes for them. This wa
 
 Implement some better way to find out the number of games in a year instead of relying on NHL.com API to throw us a specific error. We shouldn't be relying on their error messaging staying the same. This would most likely just need to be a map, because special years with either strikes or lockouts would make simply taking the number of teams in the league and the number of planned games would make a data file necessary anyway (Another reason to hate lockouts... Thanks Bettman).
 
-The biggest weakness of the data is that Pavel Bure was at his largest deficit on 01/08/1994, down either 16 goals to Dave Andreychuk. But because Bure plays on the west coast his game number is later. But this is not necessarily true, because Andrychuk could have scored late in his game and Bure could have scored early in his. But NHL.com does not provide timestamps of the goals, just the summary of the game. 
+The biggest weakness of the data is that Pavel Bure was at his largest deficit on 01/08/1994, down either 16 goals to Dave Andreychuk. But because Bure plays on the west coast his game number is later. But this is not necessarily true, because Andreychuk could have scored late in his game and Bure could have scored early in his. But NHL.com does not provide timestamps of the goals, just the summary of the game. 
 
 
